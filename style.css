@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.my-header {
+  background-color: red;
+}
+
+.paragrapf-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}

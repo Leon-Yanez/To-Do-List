@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header class="my-header">
+      <h1>Todo App</h1>
+    </header>
+    <article>
+      <div>
+        <input id="yourToDos" type="text" placeholder="get shit done" /><button
+          id="yourAddButton"
+        >
+          Add
+        </button>
+      </div>
+    </article>
+    <article>
+      <h2>Filter & Options</h2>
+      <input type="radio" name="filter" /><br>
+      <input type="radio" name="filter" /><br>
+      <input type="radio" name="filter" /><br>
+      <button>Remove Done Todos</button>
+    </article>
+    <article>
+      <h2>Your Todos</h2>
+      <ul id="todo-list"></ul>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
