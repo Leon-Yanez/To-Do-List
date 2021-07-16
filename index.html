@@ -13,23 +13,22 @@
     </header>
     <article>
       <div>
-        <input id="yourToDos" type="text" placeholder="get shit done" /><button
-          id="yourAddButton"
-        >
-          Add
-        </button>
+        <input id="yourToDos" type="text" placeholder="get shit done" />
+        <button class="add" id="yourAddButton">Add</button>
       </div>
     </article>
     <article>
       <h2>Filter & Options</h2>
-      <input type="radio" name="filter" /><br>
-      <input type="radio" name="filter" /><br>
-      <input type="radio" name="filter" /><br>
-      <button>Remove Done Todos</button>
+      <input id="all" type="radio" name="filter" value="fertig" />All<br />
+      <input id="open" type="radio" name="filter" />Open<br />
+      <input id="done" type="radio" name="filter" />Done<br />
+      <button class="removeAll">Remove Done Todos</button>
     </article>
     <article>
       <h2>Your Todos</h2>
-      <ul id="todo-list"></ul>
+      <ul id="todo-list">
+        <li></li>
+      </ul>
     </article>
     <script src="script.js"></script>
   </body>
